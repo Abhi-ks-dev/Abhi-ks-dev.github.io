@@ -1,68 +1,127 @@
 /* style.css */
 
-/* Apply base styles to the whole page */
+/* Global styles */
 body {
-  font-family: Arial, sans-serif; /* Use a clean, readable font */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  background: #f7f7f7; /* Light gray background for overall tone */
-  color: #333; /* Dark gray text color for better readability */
-  line-height: 1.6; /* Improve line spacing for text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f5;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
-/* Header section styles */
+/* Header section */
 header {
-  background: #1a1a1a; /* Dark background for contrast */
-  color: white; /* White text on dark background */
-  padding: 2rem 1rem; /* Vertical and horizontal spacing */
-  text-align: center; /* Center align text */
+  background: linear-gradient(to right, #004080, #0078d4);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Main heading inside the header */
 header h1 {
-  margin-bottom: 0.5rem; /* Add space below the main heading */
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Navigation links in the header */
+header p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+/* Navigation */
+header nav {
+  margin-top: 1rem;
+}
+
 header nav a {
-  color: white; /* Keep nav links white */
-  margin: 0 1rem; /* Space between links */
-  text-decoration: none; /* Remove underline */
+  color: #ffffffcc;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
-/* Generic section styling */
+header nav a:hover {
+  color: #ffffff;
+}
+
+/* Section layout */
 section {
-  padding: 2rem 1.5rem; /* Add spacing inside sections */
-  max-width: 800px; /* Limit width for readability */
-  margin: auto; /* Center the section horizontally */
-  background: white; /* White background for content */
-  margin-top: 1rem; /* Add space between sections */
-  border-radius: 8px; /* Rounded corners for smooth design */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  margin-top: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Section headings */
 section h2 {
-  color: #004080; /* Blue heading for brand identity */
-  margin-bottom: 1rem; /* Space below heading */
+  color: #004080;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
 }
 
-/* Remove bullets from unordered lists */
 ul {
-  list-style: none; /* Remove default list markers */
-  padding: 0; /* Remove default padding */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Style each list item (e.g., project entries) */
 li {
-  margin-bottom: 1.5rem; /* Space between list items */
+  background: #f9f9f9;
+  padding: 1.2rem;
+  border-left: 4px solid #0078d4;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-/* Footer styling */
+li h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #003366;
+}
+
+li p {
+  margin: 0.5rem 0 1rem 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+#contact a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
 footer {
-  text-align: center; /* Center footer content */
-  padding: 1rem; /* Spacing around footer */
-  background: #1a1a1a; /* Match header background */
-  color: white; /* White text on dark background */
-  margin-top: 2rem; /* Space above footer */
+  text-align: center;
+  padding: 1.5rem;
+  background: #002244;
+  color: white;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
 }
