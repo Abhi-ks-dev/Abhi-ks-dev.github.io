@@ -1,0 +1,68 @@
+/* style.css */
+
+/* Apply base styles to the whole page */
+body {
+  font-family: Arial, sans-serif; /* Use a clean, readable font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background: #f7f7f7; /* Light gray background for overall tone */
+  color: #333; /* Dark gray text color for better readability */
+  line-height: 1.6; /* Improve line spacing for text */
+}
+
+/* Header section styles */
+header {
+  background: #1a1a1a; /* Dark background for contrast */
+  color: white; /* White text on dark background */
+  padding: 2rem 1rem; /* Vertical and horizontal spacing */
+  text-align: center; /* Center align text */
+}
+
+/* Main heading inside the header */
+header h1 {
+  margin-bottom: 0.5rem; /* Add space below the main heading */
+}
+
+/* Navigation links in the header */
+header nav a {
+  color: white; /* Keep nav links white */
+  margin: 0 1rem; /* Space between links */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Generic section styling */
+section {
+  padding: 2rem 1.5rem; /* Add spacing inside sections */
+  max-width: 800px; /* Limit width for readability */
+  margin: auto; /* Center the section horizontally */
+  background: white; /* White background for content */
+  margin-top: 1rem; /* Add space between sections */
+  border-radius: 8px; /* Rounded corners for smooth design */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section headings */
+section h2 {
+  color: #004080; /* Blue heading for brand identity */
+  margin-bottom: 1rem; /* Space below heading */
+}
+
+/* Remove bullets from unordered lists */
+ul {
+  list-style: none; /* Remove default list markers */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style each list item (e.g., project entries) */
+li {
+  margin-bottom: 1.5rem; /* Space between list items */
+}
+
+/* Footer styling */
+footer {
+  text-align: center; /* Center footer content */
+  padding: 1rem; /* Spacing around footer */
+  background: #1a1a1a; /* Match header background */
+  color: white; /* White text on dark background */
+  margin-top: 2rem; /* Space above footer */
+}
